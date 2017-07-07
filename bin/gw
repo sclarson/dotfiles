@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git config user.name "Seth Larson"
+git config user.email "<seth.larson@ravenind.com>"
+
