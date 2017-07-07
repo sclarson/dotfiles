@@ -20,3 +20,7 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+if [ -d "$HOME/.yarn/bin" ]; then
+    PATH="$HOME/.yarn/bin:$PATH"
+fi
