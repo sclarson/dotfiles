@@ -1,5 +1,19 @@
 [user]
-	email = seth.larson@ravenind.com
-	name = Seth
+	email = <seth.larson@ravenind.com>
+	name = Seth Larson
 [color]
 	ui = auto
+[push]
+	default = current
+[pull]
+	rebase = true
+[help]
+	autocorrect = -1
+[log]
+	date = relative
+[diff]
+	renames = copies
+[alias]
+	rbc = rebase --continue
+	new = log master.. --reverse
+	di = diff --staged
